@@ -1,0 +1,13 @@
+maksim@maksim-pc:~$ sudo arp-scan --localnet
+Interface: enp3s0, type: EN10MB, MAC: d8:50:e6:3c:4f:42, IPv4: 192.168.1.52
+WARNING: Cannot open MAC/Vendor file ieee-oui.txt: Permission denied
+WARNING: Cannot open MAC/Vendor file mac-vendor.txt: Permission denied
+Starting arp-scan 1.10.0 with 256 hosts (https://github.com/royhills/arp-scan)
+192.168.1.1	50:ff:20:14:e6:40	(Unknown)
+192.168.1.69	50:ff:20:62:59:5c	(Unknown)
+192.168.1.53	ae:7a:6e:d6:af:c3	(Unknown: locally administered)
+192.168.1.51	4c:e0:db:86:73:a2	(Unknown)
+
+4 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.10.0: 256 hosts scanned in 1.880 seconds (136.17 hosts/sec). 4 responded
+maksim@maksim-pc:~$ 
