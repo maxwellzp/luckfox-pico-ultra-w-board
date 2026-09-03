@@ -1,0 +1,11 @@
+maksim@maksim-pc:~/luckfox-pico$ sudo arp-scan --localnet
+Interface: enp3s0, type: EN10MB, MAC: ***************, IPv4: 192.168.1.52
+Starting arp-scan 1.10.0 with 256 hosts (https://github.com/royhills/arp-scan)
+192.168.1.1	50:ff:20:14:e6:40	Keenetic Limited
+192.168.1.69	50:ff:20:62:59:5c	Keenetic Limited
+192.168.1.38	1e:6b:bb:47:08:5d	(Unknown: locally administered)
+192.168.1.40	8e:77:75:7d:78:9f	(Unknown: locally administered)
+192.168.1.44	ec:5c:68:5f:5b:ab	CHONGQING FUGUI ELECTRONICS CO.,LTD.
+
+5 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.10.0: 256 hosts scanned in 1.961 seconds (130.55 hosts/sec). 5 responded
